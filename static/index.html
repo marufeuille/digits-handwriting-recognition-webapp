@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="drawingboard.min.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="drawingboard.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<style>
+#main-board {
+	background-color: #ccc;
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+}
+		</style>
+		<title>hello</title>
+	</head>
+	<body>
+		<div>
+			<select name="method">
+				<option value="SVM">SVM</option>
+				<option value="CNN">CNN</option>
+			</select>
+		</div>
+		<div id="main-board" class="board"></div>
+		<div id="pred">
+			Predicte as <span id="result">--</span>
+		</div>
+		<div>
+			<input type="button" id="clear" value="clear" />
+		</div>
+	</body>
+</html>
