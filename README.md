@@ -13,12 +13,14 @@ pip install keras tensorflow tensorflow-cpu scikit-learn
 git clone https://github.com/marufeuille/digits-handwriting-recognition-webapp
 ```
 
-2. Download DrawingBoard library(drawingboard.min.css and drawingboard.min.js) to static folder from [here](https://github.com/Leimi/drawingboard.js/tree/master/dist)
-
-3. Run app
+2. Run app
 
 ```bash
 python3 app.py
 ```
 
-4. access to 8080 ports
+3. access to 8080 ports
+
+## external library
+
+this app uses [DrawingBoard](https://github.com/Leimi/drawingboard.js)
